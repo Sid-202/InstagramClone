@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilUsername"
+        android:layout_width="224dp"
+        android:layout_height="49dp"
+        android:layout_below="@id/ivLogo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="87dp">
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/username"
+            android:inputType="textPersonName"
+            tools:text="Username" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilPassword"
+        android:layout_width="224dp"
+        android:layout_height="49dp"
+        android:layout_below="@+id/tilUsername"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="87dp"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            tools:text="Password" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="204dp"
+        android:layout_height="49dp"
+        android:layout_below="@+id/tilPassword"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="107dp"
+        android:background="#405DE6"
+
+        android:backgroundTint="#405DE6"
+        android:shadowColor="#405DE6"
+        android:text="@string/log_in"
+        android:textColor="@color/white"
+        app:iconTint="#405DE6" />
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivLogoName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="134dp"
+        android:contentDescription="@string/instagram_logo"
+        app:srcCompat="@drawable/icon" />
+
+    <ImageView
+        android:id="@+id/ivLogoName"
+        android:layout_width="262dp"
+        android:layout_height="114dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="74dp"
+        android:contentDescription="@string/logo"
+        app:srcCompat="@drawable/nav_logo_whiteout" />
+
+    <TextView
+        android:id="@+id/tvSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLogin"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/dont_t_have_an_account"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvSignUpLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLogin"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/tvSignUp"
+        android:text="@string/sign_up"
+        android:textColor="@color/blue"
+        android:textSize="18sp" />
+
+</RelativeLayout>

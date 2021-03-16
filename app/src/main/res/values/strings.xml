@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Sid-instagram-clone</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log in</string>
+    <string name="instagram">Instagram</string>
+    <string name="sid_s_instagram">Sid\'s Instagram</string>
+    <string name="string_sid_s_instagram" />
+    <string name="s_instagram">S...instagram</string>
+    <string name="sinstagram">S...instagram</string>
+    <string name="instagram_logo">instagram logo</string>
+    <string name="logo">logo</string>
+    <string name="instaclone">InstagramClone</string>
+    <string name="description">Description</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="submit">Submit</string>
+    <string name="capturedimage">capturedImage</string>
+    <string name="log_out">Log out</string>
+    <string name="dont_t_have_an_account">Dont\'t have an account?</string>
+    <string name="sign_up"><u>Sign Up</u></string>
+</resources>
