@@ -15,6 +15,7 @@ buildscript {
 
 allprojects {
     repositories {
+        // requires Gradle v4.1+
         google()
         jcenter()
         maven { url "https://jitpack.io" }
@@ -23,4 +24,9 @@ allprojects {
 
 task clean(type: Delete) {
     delete rootProject.buildDir
+}
+
+ext {
+    appCompatVersion = '1.0.0'
+    designSupportVersion = '1.0.0'
 }

@@ -18,4 +18,13 @@
     <string name="log_out">Log out</string>
     <string name="dont_t_have_an_account">Dont\'t have an account?</string>
     <string name="sign_up"><u>Sign Up</u></string>
+    <string name="profile">Profile</string>
+    <string name="home">Home</string>
+    <string name="compose">Compose</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+    <string name="insta_name">Insta name</string>
+    <string name="menu_dm">menu DM</string>
+    <string name="camera">camera</string>
 </resources>
